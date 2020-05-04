@@ -1,33 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR" dir=""ltr">
-<head>
-    
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link href="https://fonts.googleapis.com/css?family=Confortaa" rel="stylesheet">
-    
-    <meta charset="UTF-8">
+<html>
 
-    <title>Tela Login</title>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Tela Login</title>
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Confortaa" rel="stylesheet">
+
+
 </head>
+
 <body>
 
-    <div class="login"
-        <img src="img/user.png" class="usuario" width="100" height="100" alt="">
-        <h1>Login</h1>
-        <form>
-
-            <p>Usuário</p>
-            <input type="text" name="" placeholder="Insira seu nome de usuário">
-            <p>Senha</p>
-            <input type="password" name="" placeholder="Insira sua senha">
-            <input type="submit" name="" value="login">
-            <a href="#">Esqueceu sua senha</a><br>
-            <a href="#">Ainda não possui conta</a><br>
 
 
-        </form>
+  <div class="login" <img src="img/user.png" class="usuario" width="100" height="100" alt="">
+    <h1>Login</h1>
+    <form>
 
-    </div>
-    
+      <div>
+        <label for="Usuário">Usuário</label>
+        <input type="text" id="usuario" placeholder="Insira seu nome de usuário" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Insira sua senha" required>
+      </div>
+
+      <div>
+        <input type="submit" name="" value="login" class="submit">
+      </div>
+
+      <div class="forgot">
+        <a href="#">Esqueceu sua senha</a><br>
+        <a href="#">Ainda não possui conta</a><br>
+      </div>
+
+    </form>
+
+  </div>
+
 </body>
+
 </html>
